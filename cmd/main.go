@@ -44,6 +44,7 @@ func main() {
 	}
 
 	for _, todo := range todos {
+		fmt.Println()
 		fmt.Println(todo)
 	}
 
